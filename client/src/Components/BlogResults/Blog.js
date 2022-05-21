@@ -11,7 +11,7 @@ const BlogResults = () => {
     const [blog,setBlog]=useState(null);
     useEffect(()=>{
         setisLoading(true);
-        fetch("http://localhost:4000/view/?link="+searchTerm,{
+        fetch("http://54.84.249.68:4000/view/?link="+searchTerm,{
             method: 'GET',
             headers: { "Content-Type": "application/json" },
         })
@@ -29,7 +29,7 @@ const BlogResults = () => {
     const handleSave = (title,intro,link)=>{
         const blog2save = {title,intro,link};
         // console.log(blog2save);
-        fetch("http://localhost:4000/save",{
+        fetch("http://54.84.249.68:4000/save",{
             method:"POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(blog2save)
