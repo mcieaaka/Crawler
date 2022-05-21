@@ -1,0 +1,19 @@
+.recDiv{
+    margin:auto;
+    width:50%;
+    display:flex;
+    flex-wrap:wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+    justify-content:center;
+}
+.recDiv>p{
+    vertical-align:center;
+}
+.recDiv>div{
+    margin:5px;
+    padding:10px;
+    border:2px black solid;
+    border-radius:24px;
+    background-color:#EFEEFE;
+}

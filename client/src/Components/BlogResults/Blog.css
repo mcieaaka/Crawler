@@ -1,0 +1,23 @@
+.blogDiv{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:5% 10%;
+}
+.blogDiv>h2{
+    text-align:center;
+}
+.blogDiv>p{
+    text-align:center;
+}
+.blogDiv>p>img{
+    border:2px solid black;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.allimg-div{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.allimg-div > div {
+    margin:10px;padding:10px;
+}

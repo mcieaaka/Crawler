@@ -1,0 +1,16 @@
+.searchForm{
+    display:flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.searchForm>form>label{
+    margin:5px;
+    font-size:1.5em;
+}
+.searchForm>form>input{
+    margin:5px;
+    width:400px;
+    height:40px;
+    font-size:1.5em;
+    background-color: #E0E0E0;
+}

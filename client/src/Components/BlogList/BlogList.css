@@ -1,0 +1,19 @@
+.blogCard{
+    display: flex;
+    flex-wrap:wrap;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:5% 10%;
+}
+.sepLine{
+    width:80%;
+    height:2.5px;
+    background-image:linear-gradient(to right,red,blue,green);
+    border-radius:10px;
+    margin:auto;
+    margin-bottom: 5px;
+}
+.resCount{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    font-size:1.25em;
+}

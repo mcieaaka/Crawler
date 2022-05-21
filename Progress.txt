@@ -1,0 +1,13 @@
+Phase 1: NodeJS based Web Crawler API
+-Postman Only, NO UI
+-Time Taken:
+Phase 2: React based Frontend
+-Integration of Backend with UI
+-Time Taken:
+Phase 3: KNN Based Recommendation for tags
+-Python Algo KNN and NLTK
+-Time Taken:
+Phase 4: Deployment
+-AWS Backend server
+-Frontend Netlify
+-Time Taken:

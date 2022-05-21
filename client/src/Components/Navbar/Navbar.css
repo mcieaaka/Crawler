@@ -1,0 +1,21 @@
+.nav{
+    position:sticky;
+    background-color:rgb(163, 140, 140);
+    color:white;
+    margin:0 0 20px 0;
+    /* height:60px; */
+    padding:10px 50px;
+}
+.nav>img{
+    vertical-align: middle;
+}
+.nav-link{
+    color:white;
+    text-decoration:none;
+    vertical-align: middle;
+    margin:2px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin:0px;
+}
