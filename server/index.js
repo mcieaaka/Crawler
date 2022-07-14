@@ -13,7 +13,7 @@ var connection = mysql.createConnection({
   port     : 3308,
   user     : 'root',
   password : '',
-  database : 'gocometcrawler'
+  database : 'crawler'
 });
 
 app = express();
