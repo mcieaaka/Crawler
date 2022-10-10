@@ -9,7 +9,7 @@ const Saved = () => {
 
     useEffect(()=>{
         setisLoading(true);
-        fetch('http://54.84.249.68:4000/saved',{
+        fetch('http://3.83.216.2:4000/saved',{
             method:'GET'
         })
         .then(res=>{

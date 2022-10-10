@@ -12,7 +12,7 @@ const Search = () => {
     const handleSubmit = (e)=>{
         setisLoading(true);
         e.preventDefault();
-        fetch('http://54.84.249.68:4000/search/'+tag)
+        fetch('http://3.83.216.2:4000/search/'+tag)
         .then(res=>{
             return res.json();
         })

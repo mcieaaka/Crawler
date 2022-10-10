@@ -29,7 +29,7 @@ const BlogResults = () => {
     const handleSave = (title,intro,link)=>{
         const blog2save = {title,intro,link};
         // console.log(blog2save);
-        fetch("http://54.84.249.68:4000/save",{
+        fetch("http://3.83.216.2:4000/save",{
             method:"POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(blog2save)
