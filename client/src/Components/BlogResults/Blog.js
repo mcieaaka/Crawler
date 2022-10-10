@@ -11,7 +11,7 @@ const BlogResults = () => {
     const [blog,setBlog]=useState(null);
     useEffect(()=>{
         setisLoading(true);
-        fetch("http://54.84.249.68:4000/view/?link="+searchTerm,{
+        fetch("http://3.83.216.2:4000/view/?link="+searchTerm,{
             method: 'GET',
             headers: { "Content-Type": "application/json" },
         })
