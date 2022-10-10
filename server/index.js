@@ -9,10 +9,10 @@ const SpecificArticle = require('./Controller.js').SpecificArticle;
 const ArticleList = require('./Controller.js').ArticleList;
 
 var connection = mysql.createConnection({
-  host     : '127.0.0.1',
-  port     : 3308,
-  user     : 'root',
-  password : '',
+  host     : 'crawlerdb.cczpqsi56qoj.us-east-1.rds.amazonaws.com',
+  port     : 3306,
+  user     : 'admin',
+  password : 'crawlerDB',
   database : 'gocometcrawler'
 });
 

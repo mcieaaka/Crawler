@@ -10,7 +10,7 @@ ArticleList = async(url) =>{
     const htmlContent = await page.content();
     const $= cheerio.load(htmlContent);
     const articleLinks = [];
-    $("article> div > div > div > div > div > div:nth-child(2) > div > div.l.dq > div > div > div > div > div > div:nth-child(1) > a").each((index,element)=>{
+    $("article> div > div > div > div > div > div:nth-child(2) > div > div.l.do > div > div > div > div > div > div:nth-child(1) > a").each((index,element)=>{
       articleLinks.push({
         link:$(element).attr("href"),
         title:$(element).find("h2").text(),
